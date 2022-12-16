@@ -9,12 +9,14 @@ body {
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
+    box-sizing:content-box;
 }
+
 
 header {
     height: 40px;
     border-bottom: 2px solid #000;
-    background-color: #8f8b8b;
+    background-color: #bdb7c4f1;
 }
 
 nav > ul {
@@ -28,6 +30,7 @@ nav > ul > li {
     margin-top: 10px;
 }
 
+
 a {
     text-decoration: none;
     text-transform: uppercase;
@@ -40,3 +43,57 @@ a {
 li :hover {
     color: magenta;
 }
+
+main {
+    display: flex;
+}
+
+
+
+.logo {
+    background-color: #e0bac8f1;
+    
+}
+
+
+
+.Contact {
+    flex-direction: column;
+    background-color: #bdb7c4f1;
+    height: 100%;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 10px;
+}
+
+
+section {
+    height: 35%;
+    
+    text-align: center;
+    background-color: #e1e3f0bc;
+}
+
+.education {
+    height: 25%;
+}
+
+.seyHi {
+    /*margin-top: 30px;
+    margin-bottom: 30px;*/
+    padding: 30px;
+    background-color: #e1e3f0bc;
+    text-align: center;
+}
+
+#AboutMe, #MainAdvantages, #Education, #Skills  {
+   background-color: #e0bac8f1;
+   text-transform: uppercase;
+}
+
